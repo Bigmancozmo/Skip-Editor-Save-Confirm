@@ -1,0 +1,9 @@
+{
+	"geode": "2.0.0-beta.21",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "bigmancozmo.skip_editor_save_confirm",
+	"name": "Skip Editor Save Confirm",
+	"developer": "Bigmancozmo",
+	"description": "Allows you to skip the confirm save popup in the editor"
+}
