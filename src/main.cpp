@@ -13,5 +13,9 @@ class $modify(EditorPauseLayer) {
 		} else {
 			EditorPauseLayer::onSave(obj);
 		}
+		
+		if(resumeAfterSave){
+			EditorPauseLayer::onResume(obj);
+		}
 	}
 };
