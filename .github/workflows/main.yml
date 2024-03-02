@@ -52,11 +52,11 @@ jobs:
           name: Build Output
           path: ${{ steps.build.outputs.build-output }}
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.RELEASE_TOKEN }}"
-          automatic_release_tag: "nightly"
-          prerelease: true
-          title: "Nightly"
-          files: |
-            /home/runner/work/_actions/geode-sdk/build-geode-mod/main/combine/artifacts/geode-build-win/bigmancozmo.spacemenu.geode
+      #- uses: "marvinpinto/action-automatic-releases@latest"   # since this yml file is stolen from my other mod this doesn't work
+      #  with:
+      #    repo_token: "${{ secrets.RELEASE_TOKEN }}"
+      #    automatic_release_tag: "nightly"
+      #    prerelease: true
+      #    title: "Nightly"
+      #    files: |
+      #      /home/runner/work/_actions/geode-sdk/build-geode-mod/main/combine/artifacts/geode-build-win/bigmancozmo.spacemenu.geode
