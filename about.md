@@ -1,3 +1,4 @@
-# Template Mod
+# Skip Editor Save Confirm
 
-Edit about.md to change this
+Skips the "save" yes/no popup in the editor pause menu.
+Can be configured in the **mod settings.**
